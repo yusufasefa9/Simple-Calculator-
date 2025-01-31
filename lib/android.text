@@ -1,0 +1,54 @@
+To set up Android Studio for Flutter development, follow these steps:
+
+Download and Install Android Studio:
+
+Download Android Studio from developer.android.com.
+Run the installer and follow the on-screen instructions to complete the installation.
+Install Flutter and Dart Plugins:
+
+
+Open Android Studio.
+
+Go to File > Settings (or Android Studio > Preferences on macOS).
+Select Plugins from the left-hand menu.
+Click on the Marketplace tab and search for Flutter.
+Click Install to install the Flutter plugin. This will also install the Dart plugin automatically.
+Restart Android Studio to apply the changes.
+Set Up Flutter SDK:
+
+Download the Flutter SDK from flutter.dev.
+Extract the downloaded zip file and place the flutter directory in a desired location (e.g., C:\src\flutter).
+Add the Flutter bin directory to your system path:
+Open the Start Search, type in "env", and select "Edit the system environment variables".
+In the System Properties window, click on the "Environment Variables" button.
+Under "System variables", find the Path variable and click "Edit".
+Click "New" and add the path to the Flutter bin directory (e.g., C:\src\flutter\bin).
+Click "OK" to close all windows.
+Set Up Android SDK:
+
+Open Android Studio.
+Go to File > Settings (or Android Studio > Preferences on macOS).
+Select Appearance & Behavior > System Settings > Android SDK.
+Ensure that the Android SDK and Android SDK Platform-Tools are installed.
+Install the latest Android SDK version and any other necessary tools.
+Configure Virtual Device (Emulator):
+
+Open Android Studio.
+Go to Tools > AVD Manager.
+Click on Create Virtual Device.
+Select a device definition and click Next.
+Select a system image and click Next.
+Verify the configuration and click Finish.
+Run flutter doctor:
+
+Open a terminal or command prompt.
+Run the following command to check for any issues and verify your setup:
+Follow any instructions provided by flutter doctor to resolve issues.
+Create and Run a Flutter Project:
+
+Open Android Studio.
+Go to File > New > New Flutter Project.
+Select Flutter Application and click Next.
+Configure your project and click Finish.
+Once the project is created, you can run it on an emulator or a connected device by clicking the Run button.
+This should set up Android Studio for Flutter development on your Windows machine.
